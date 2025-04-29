@@ -1,16 +1,16 @@
 <?php
 
 $valor1 = $_POST['valor1'];
-function pi($a) {
-   $sobra = ($a%2);
+function parOuImpar($a) {
+$sobra = ($a %2);
 }
 if ($sobra == 1)
 {
-   echo " $a é impar";
+   echo " $a e impar";
 }
 else 
 {
-echo " $a é par";
+echo " $a e par";
 }
 
 
