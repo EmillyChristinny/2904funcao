@@ -13,6 +13,6 @@ else
 {
 echo " $a e par";
 }
-$sobra = parOuImpar($valor1)
+$sobra = parOuImpar($valor1);
 
 ?>
