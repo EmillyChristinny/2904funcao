@@ -1,11 +1,10 @@
-
 <?php
-
-$valor1 = $_POST['valor1'];
 function parOuImpar($a) {
-$sobra = ($a %2);
+return $a%2;
 }
-if ($sobra == 1)
+$valor = $_POST['valor'];
+$calculo = parOuImpar ($valor);
+if ($calculo == 0)
 {
    echo " $a e impar";
 }
@@ -13,6 +12,5 @@ else
 {
 echo " $a e par";
 }
-$sobra = parOuImpar($valor1);
 
 ?>
