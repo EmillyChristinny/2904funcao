@@ -6,9 +6,11 @@ function pi($a) {
 }
 if ($sobra == 1)
 {
-   echo " $a é impar"
-}else {
-echo " $a é par"
+   echo " $a é impar";
+}
+else 
+{
+echo " $a é par";
 }
 
 
