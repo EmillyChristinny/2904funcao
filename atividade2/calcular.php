@@ -2,7 +2,7 @@
 
 $valor1 = $_POST['valor1'];
 function pi($a) {
-   $sobra = ($a)%2 ;
+   $sobra = ($a%2);
 }
 if ($sobra == 1)
 {
