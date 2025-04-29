@@ -2,9 +2,9 @@
 
 $valor1 = $_POST['valor1'];
 function pi($a) {
-    return ($a)%2 ;
+   $sobra = ($a)%2 ;
 }
-if (return == 1)
+if ($sobra == 1)
 {
    echo " $a é impar"
 }else {
