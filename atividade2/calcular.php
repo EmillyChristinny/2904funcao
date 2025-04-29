@@ -1,3 +1,4 @@
+
 <?php
 
 $valor1 = $_POST['valor1'];
@@ -12,6 +13,6 @@ else
 {
 echo " $a e par";
 }
-
+$sobra = parOuImpar($valor1)
 
 ?>
