@@ -1,10 +1,10 @@
 <?php
-function converter($f) {
+function converterParaCelsius($f) {
     return ($f - 32) * 5 / 9;
 }
  
 $fahrenheit = $_POST['fahrenheit'];
-$celsius = converter($fahrenheit);
+$celsius = converterParaCelsius($fahrenheit);
  
-echo "$fahrenheit ºF equivale a " . round($celsius, 2) . " ºC";
+echo "$fahrenheit ºF equivale a $celsius ºC";
 ?>
