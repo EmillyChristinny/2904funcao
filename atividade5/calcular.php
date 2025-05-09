@@ -1,5 +1,5 @@
 <?php
-function validarIdade($idade) {
+function v($idade) {
     if ($idade < 18) {
         return "Menor de idade";
     } elseif ($idade < 60) {
@@ -10,7 +10,7 @@ function validarIdade($idade) {
 }
  
 $idade = $_POST['idade'];
-$classe = validarIdade($idade);
+$classe = v($idade);
  
 echo "Com $idade anos, a pessoa é: $classe";
 ?>
